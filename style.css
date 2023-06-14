@@ -1,0 +1,51 @@
+.container 
+ {
+    background-color: rgba(255, 255, 255, 0.346);
+    border: 1px solid rgba(17, 16, 16, 0.289);
+    padding: 60px ;
+    margin: auto;
+    border-radius: 50px; /* faz a curvas nas boardas*/
+    max-width: 600px;
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    box-shadow: 10px -10px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 10px -10px rgba(0,0,0,0.6);
+    position: absolute;
+    left: 50%;
+    top: 20%
+}
+
+.container h1
+{
+    font-size: 60px; 
+    text-align: center;
+    font-family: 'Courier New', monospace;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+   -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
+
+ 
+   .box p
+{
+    border: 1px solid rgba(227, 11, 11, 0.126);
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Courier New', monospace;
+    background-color: rgba(255, 0, 0, 0.078);
+    box-shadow: 0px -10px 5px rgba(125, 31, 31, 0.8), 0px 10px 5px rgba(125, 31, 31, 0.8);
+ -webkit-box-shadow: 0px -10px 5px rgba(247, 6, 6, 0.12), 0px 10px 5px rgba(247, 6, 6, 0.12)
+}
+
+body
+{
+    margin: 0;
+    background-image: url(./assets/pexels-steve-johnson-1028624.jpg);
+    background-repeat: none;
+    background-position: center top;
+    background-size: cover; /* imagem por inteira*/
+    width: auto;
+    height: 100vh;
+    text-align: justify;
+}
+
