@@ -16,12 +16,13 @@ body {
   border: 1px solid rgba(17, 16, 16, 0.289);
   padding: 60px;
   border-radius: 50px;
-  max-width: 600px;
+  width: 650px;
   text-align: center;
   color: black;
   font-size: 15px;
   -webkit-box-shadow: 10px -10px rgba(0, 0, 0, 0.6);
   box-shadow: 10px -10px rgba(0, 0, 0, 0.6);
+  margin: 0 40px;
 }
 
 .container h1 {
@@ -44,3 +45,14 @@ body {
     0px 10px 5px rgba(125, 31, 31, 0.8);
 }
 
+@media screen and (max-width: 750px) {
+  body {
+    overflow: auto;
+    background-size: auto;
+    height: auto;
+    width: auto;
+  }
+  .container {
+    margin-top: 100px;
+  }
+}
